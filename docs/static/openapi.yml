@@ -28893,6 +28893,10 @@ paths:
                       type: string
                     red:
                       type: string
+                    winner:
+                      type: string
+                    deadline:
+                      type: string
               pagination:
                 type: object
                 properties:
@@ -29019,6 +29023,10 @@ paths:
                   black:
                     type: string
                   red:
+                    type: string
+                  winner:
+                    type: string
+                  deadline:
                     type: string
         default:
           description: An unexpected error response.
@@ -49354,6 +49362,10 @@ definitions:
               type: string
             red:
               type: string
+            winner:
+              type: string
+            deadline:
+              type: string
       pagination:
         type: object
         properties:
@@ -49395,6 +49407,10 @@ definitions:
             type: string
           red:
             type: string
+          winner:
+            type: string
+          deadline:
+            type: string
   interchainmedia.checkers.checkers.QueryGetSystemInfoResponse:
     type: object
     properties:
@@ -49423,6 +49439,10 @@ definitions:
       black:
         type: string
       red:
+        type: string
+      winner:
+        type: string
+      deadline:
         type: string
   interchainmedia.checkers.checkers.SystemInfo:
     type: object
